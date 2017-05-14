@@ -1,0 +1,3 @@
+data/GTSRB/
+*.json
+__pycache__/

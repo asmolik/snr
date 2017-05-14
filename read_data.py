@@ -1,7 +1,27 @@
 """Read data from The German Traffic Sign Recognition Benchmark (GTSRB)"""
 
 import os
+import const
 
+def load_data(feature, classes):
+    """ Returns training and test data for given classes and features set """
+    # Read test data
+    test_ids, test_labels = read_test_image_labels(
+        const.DATA_CSV_PATH, classes=classes)
+    test_data = read_test_image_features(
+        const.TEST_FEATURE_PATHS[feature],
+        labels=dict(zip(test_ids, test_labels)),
+        classes=classes)
+
+    # Read training data
+    _, train_labels = read_training_image_labels(
+        const.DATA_TRAINING_IMG_PATH,
+        classes=classes)
+    train_data = read_training_image_features(
+        const.TRAINING_FEATURES_PATHS[feature],
+        classes=classes)
+
+    return train_data, train_labels, test_data, test_labels
 
 def read_training_image_labels(path, classes=range(0, 43)):
     """Reads images' ids and labels of specified classes from a directory.
@@ -22,22 +42,6 @@ def read_training_image_labels(path, classes=range(0, 43)):
             labels.append(class_id)
     return images, labels
 
-
-def read_training_image_hues(path, classes=range(0, 43)):
-    """Reads hues of images of specified classes from a directory.
-    Returns a matrix where one row is a hue vector of an image."""
-    hues = []
-    # iterate over classes (dirs)
-    for dirname in os.listdir(path):
-        if int(dirname) not in classes:
-            continue
-        # iterate over images (files)
-        for filename in os.listdir(path + dirname):
-            with open(path + '/' + dirname + '/' + filename) as file:
-                hues.append([float(line) for line in file])
-    return hues
-
-
 def read_test_image_labels(path, classes=range(0, 43)):
     """Reads file GT-final_test.csv"""
     images = []
@@ -52,30 +56,8 @@ def read_test_image_labels(path, classes=range(0, 43)):
             labels.append(int(tmp[7]))
     return images, labels
 
-
-def read_test_image_hues(path, labels, classes=range(0, 43)):
-    """Reads hues of images of specified classes from a directory.
-    labels - dictionary img_id, class label
-    Returns a matrix where one row is a hue vector of an image."""
-    hues = []
-    # iterate over images (files)
-    for filename in os.listdir(path):
-        # if it isn't in the dictionary don't read it
-        if filename.partition('.')[0] not in labels:
-            continue
-        # if it isn't of specified class don't read it
-        if labels[filename.partition('.')[0]] not in classes:
-            continue
-        with open(path + '/' + filename) as file:
-            hues.append([float(line) for line in file])
-    return hues
-
-
-def read_training_image_hog(path,
-                            columns=range(0, 256),
-                            classes=range(0, 43)):
-    """Reads HOG features of specified classes from a directory.
-    columns - features to read
+def read_training_image_features(path, classes=range(0, 43)):
+    """Reads features of specified classes from a directory.
     Returns a matrix where one row is a feature vector."""
     features = []
     # iterate over classes (dirs)
@@ -85,16 +67,12 @@ def read_training_image_hog(path,
         # iterate over images (files)
         for filename in os.listdir(path + dirname):
             with open(path + '/' + dirname + '/' + filename) as file:
-                features.append([float(line) for i, line in enumerate(file) if i in columns])
+                features.append([float(line) for line in file])
     return features
 
-
-def read_test_image_hog(path,
-                        labels,
-                        columns=range(0, 256),
-                        classes=range(0, 43)):
+def read_test_image_features(path, labels, classes=range(0, 43)):
     """Reads HOG features of specified classes from a directory.
-    columns - features to read
+    labels - dictionary img_id, class label
     Returns a matrix where one row is a feature vector."""
     features = []
     # iterate over images (files)
@@ -106,5 +84,5 @@ def read_test_image_hog(path,
         if labels[filename.partition('.')[0]] not in classes:
             continue
         with open(path + '/' + filename) as file:
-            features.append([float(line) for i, line in enumerate(file) if i in columns])
+            features.append([float(line) for line in file])
     return features
