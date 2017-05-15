@@ -4,11 +4,12 @@ def message(msg):
     ''' Logs message '''
     print(msg)
 
-def dataset_configuration(feature, classes_cnt, components_cnt):
+def dataset_configuration(feature, classes, components_cnt):
     ''' Logs dataset configuration info'''
     print('Selected feature: {}'.format(feature))
-    print('Classes count: {:d}'.format(classes_cnt))
     print('Principal components count: {:d}'.format(components_cnt))
+    print('Classes count: {:d}'.format(len(classes)))
+    print('Selected classes: {}'.format(classes))
 
 def dataset_summary(train_set_size, test_set_size):
     ''' Logs dataset summary '''
@@ -33,6 +34,6 @@ def time(elapsed_seconds):
     msg = "Operation completed. Elapsed time: {:d}h {:d}m {:d}s".format(hours, minutes, seconds)
     print(msg)
 
-def empty_line():
-    ''' Logs empty line '''
-    print('')
+def line():
+    ''' Logs separating line '''
+    print('_'*100)

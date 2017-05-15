@@ -3,7 +3,7 @@
 import os
 import const
 
-def load_data(feature, classes):
+def read_test_and_train_data(feature, classes):
     """ Returns training and test data for given classes and features set """
     # Read test data
     test_ids, test_labels = read_test_image_labels(

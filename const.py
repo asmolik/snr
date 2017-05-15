@@ -1,6 +1,6 @@
 """ Paths to data and other constants """
 
-MAIN_DATA_PATH = 'data/' # 'C:/Users/Aleksander/Documents/studia/snr/'
+MAIN_DATA_PATH = 'C:/Users/Aleksander/Documents/studia/snr/'
 
 HUE = 'HUE'
 HOG01 = 'HOG01'
@@ -27,3 +27,5 @@ TEST_FEATURE_PATHS = {
     HOG03: MAIN_DATA_PATH + 'GTSRB/Final_Test/HOG/HOG_03/',
     HAAR: MAIN_DATA_PATH + 'GTSRB/Final_Test/Haar/'
 }
+
+N_THREADS = 8
