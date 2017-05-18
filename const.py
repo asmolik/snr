@@ -12,6 +12,8 @@ DATA_CSV_PATH = MAIN_DATA_PATH + 'GTSRB/Final_Test/GT-final_test.csv'
 DATA_TRAINING_IMG_PATH = MAIN_DATA_PATH + 'GTSRB/Final_Training/Images/'
 DATA_TEST_IMG_PATH = MAIN_DATA_PATH + 'GTSRB/Final_Test/Images/'
 
+RESULTS_FILE_NAME = "results_chi2.txt"
+
 TRAINING_FEATURES_PATHS = {
     HUE: MAIN_DATA_PATH + 'GTSRB/Final_Training/HueHist/',
     HOG01: MAIN_DATA_PATH + 'GTSRB/Final_Training/HOG/HOG_01/',
@@ -29,3 +31,6 @@ TEST_FEATURE_PATHS = {
 }
 
 N_THREADS = 8
+
+PAIRS = [(29, 13), (7, 15), (19, 1), (34, 8), (35, 27), (26, 9), (14, 18), (10, 33), (5, 37), (22, 16), (36, 23),
+         (12, 28), (17, 40), (0, 30), (41, 11), (39, 21), (6, 24), (20, 31), (3, 32), (38, 2), (25, 42)]

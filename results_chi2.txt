@@ -1,0 +1,672 @@
+(29, 13)
+0.889 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 0.1, 'chi2__gamma': 0.01}
+0.995 (+/-0.012) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.997 (+/-0.012) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.997 (+/-0.012) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 100}
+0.892 (+/-0.008) for {'svm__kernel': 'precomputed', 'svm__C': 0.1, 'chi2__gamma': 0.1}
+0.996 (+/-0.011) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.996 (+/-0.011) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.996 (+/-0.011) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 100}
+0.889 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 0.1, 'chi2__gamma': 1}
+0.889 (+/-0.000) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.889 (+/-0.000) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.889 (+/-0.000) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 100}
+0.889 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 0.1, 'chi2__gamma': 10}
+0.889 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.889 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.889 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 100}
+0.889 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 0.1, 'chi2__gamma': 100}
+0.889 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.889 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.889 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 100}
+
+{'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 10}
+
+             precision    recall  f1-score   support
+
+         13       1.00      1.00      1.00       720
+         29       1.00      1.00      1.00        90
+
+avg / total       1.00      1.00      1.00       810
+
+
+(7, 15)
+0.696 (+/-0.000) for {'svm__C': 0.1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+0.927 (+/-0.070) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.989 (+/-0.026) for {'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 0.01}
+0.991 (+/-0.021) for {'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 0.01}
+0.696 (+/-0.000) for {'svm__C': 0.1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.982 (+/-0.044) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.984 (+/-0.040) for {'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 0.1}
+0.984 (+/-0.040) for {'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 0.1}
+0.696 (+/-0.000) for {'svm__C': 0.1, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.700 (+/-0.005) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.705 (+/-0.008) for {'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 1}
+0.705 (+/-0.008) for {'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 1}
+0.696 (+/-0.000) for {'svm__C': 0.1, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.696 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.696 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 10}
+0.696 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 10}
+0.696 (+/-0.000) for {'svm__C': 0.1, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+0.696 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.696 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 100}
+0.696 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 100}
+
+{'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 0.01}
+
+             precision    recall  f1-score   support
+
+          7       1.00      1.00      1.00       450
+         15       1.00      1.00      1.00       210
+
+avg / total       1.00      1.00      1.00       660
+
+
+(19, 1)
+0.914 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.01, 'svm__C': 0.1}
+0.993 (+/-0.022) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.998 (+/-0.007) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+0.998 (+/-0.007) for {'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 0.01}
+0.914 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.1, 'svm__C': 0.1}
+0.995 (+/-0.021) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.995 (+/-0.021) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.995 (+/-0.021) for {'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 0.1}
+0.914 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 1, 'svm__C': 0.1}
+0.914 (+/-0.000) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.914 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.914 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 1}
+0.914 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 10, 'svm__C': 0.1}
+0.914 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.914 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.914 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 10}
+0.914 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 100, 'svm__C': 0.1}
+0.914 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.914 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+0.914 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 100}
+
+{'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+
+             precision    recall  f1-score   support
+
+          1       1.00      1.00      1.00       720
+         19       1.00      1.00      1.00        60
+
+avg / total       1.00      1.00      1.00       780
+
+
+(34, 8)
+0.770 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.01, 'svm__C': 0.1}
+0.944 (+/-0.064) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+0.994 (+/-0.011) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.01, 'svm__C': 10}
+0.995 (+/-0.009) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+0.770 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.1, 'svm__C': 0.1}
+0.989 (+/-0.016) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.990 (+/-0.013) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.1, 'svm__C': 10}
+0.990 (+/-0.013) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.770 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 1, 'svm__C': 0.1}
+0.770 (+/-0.000) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.770 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 1, 'svm__C': 10}
+0.770 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.770 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 10, 'svm__C': 0.1}
+0.770 (+/-0.000) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.770 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 10, 'svm__C': 10}
+0.770 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.770 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 100, 'svm__C': 0.1}
+0.770 (+/-0.000) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+0.770 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 100, 'svm__C': 10}
+0.770 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+
+{'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+
+             precision    recall  f1-score   support
+
+          8       1.00      1.00      1.00       450
+         34       1.00      1.00      1.00       120
+
+avg / total       1.00      1.00      1.00       570
+
+
+(35, 27)
+0.833 (+/-0.000) for {'svm__C': 0.1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+0.991 (+/-0.009) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 0.01}
+1.000 (+/-0.000) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 10}
+1.000 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+0.833 (+/-0.000) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.999 (+/-0.003) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 0.1}
+0.999 (+/-0.003) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.999 (+/-0.003) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.833 (+/-0.000) for {'svm__C': 0.1, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.833 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 1}
+0.833 (+/-0.000) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.833 (+/-0.000) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 100}
+0.833 (+/-0.000) for {'svm__C': 0.1, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.833 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 10}
+0.833 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.833 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 100}
+0.833 (+/-0.000) for {'svm__C': 0.1, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+0.833 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 100}
+0.833 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.833 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 100}
+
+{'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 10}
+
+             precision    recall  f1-score   support
+
+         27       1.00      1.00      1.00        60
+         35       1.00      1.00      1.00       390
+
+avg / total       1.00      1.00      1.00       450
+
+
+(26, 9)
+0.710 (+/-0.000) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+1.000 (+/-0.002) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+1.000 (+/-0.002) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+1.000 (+/-0.002) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.01, 'svm__C': 100}
+0.973 (+/-0.027) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.999 (+/-0.002) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.999 (+/-0.002) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.999 (+/-0.002) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.1, 'svm__C': 100}
+0.710 (+/-0.000) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.715 (+/-0.010) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.719 (+/-0.016) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.719 (+/-0.016) for {'svm__kernel': 'precomputed', 'chi2__gamma': 1, 'svm__C': 100}
+0.710 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.710 (+/-0.000) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.710 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.710 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 10, 'svm__C': 100}
+0.710 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.710 (+/-0.000) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+0.710 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+0.710 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 100, 'svm__C': 100}
+
+{'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+
+             precision    recall  f1-score   support
+
+          9       1.00      1.00      1.00       480
+         26       1.00      1.00      1.00       180
+
+avg / total       1.00      1.00      1.00       660
+
+
+(14, 18)
+0.606 (+/-0.000) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+1.000 (+/-0.000) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+1.000 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 0.01}
+1.000 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.01, 'svm__C': 100}
+0.976 (+/-0.042) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.999 (+/-0.002) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.999 (+/-0.002) for {'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 0.1}
+0.999 (+/-0.002) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.1, 'svm__C': 100}
+0.606 (+/-0.000) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.717 (+/-0.109) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.734 (+/-0.121) for {'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 1}
+0.734 (+/-0.121) for {'svm__kernel': 'precomputed', 'chi2__gamma': 1, 'svm__C': 100}
+0.606 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.606 (+/-0.000) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.606 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 10}
+0.606 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 10, 'svm__C': 100}
+0.606 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.606 (+/-0.000) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+0.606 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 100}
+0.606 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 100, 'svm__C': 100}
+
+{'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+
+             precision    recall  f1-score   support
+
+         14       1.00      1.00      1.00       270
+         18       1.00      1.00      1.00       390
+
+avg / total       1.00      1.00      1.00       660
+
+
+(10, 33)
+0.745 (+/-0.001) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.999 (+/-0.003) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+0.999 (+/-0.002) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.999 (+/-0.002) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 100}
+0.896 (+/-0.046) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.999 (+/-0.002) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.999 (+/-0.002) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.999 (+/-0.002) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 100}
+0.745 (+/-0.001) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.745 (+/-0.002) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.745 (+/-0.002) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.745 (+/-0.002) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 100}
+0.745 (+/-0.001) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.745 (+/-0.001) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.745 (+/-0.001) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.745 (+/-0.001) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 100}
+0.745 (+/-0.001) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.745 (+/-0.001) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+0.745 (+/-0.001) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.745 (+/-0.001) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 100}
+
+{'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 100}
+
+             precision    recall  f1-score   support
+
+         10       1.00      1.00      1.00       660
+         33       1.00      1.00      1.00       210
+
+avg / total       1.00      1.00      1.00       870
+
+
+(5, 37)
+0.899 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.01, 'svm__C': 0.1}
+0.929 (+/-0.032) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 0.01}
+0.995 (+/-0.013) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.995 (+/-0.013) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+0.899 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.1, 'svm__C': 0.1}
+0.977 (+/-0.051) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 0.1}
+0.979 (+/-0.051) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.979 (+/-0.051) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.899 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 1, 'svm__C': 0.1}
+0.899 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 1}
+0.899 (+/-0.000) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.899 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.899 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 10, 'svm__C': 0.1}
+0.899 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 10}
+0.899 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.899 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.899 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 100, 'svm__C': 0.1}
+0.899 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 100}
+0.899 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.899 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+
+{'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 10}
+
+             precision    recall  f1-score   support
+
+          5       1.00      1.00      1.00       630
+         37       1.00      0.97      0.98        60
+
+avg / total       1.00      1.00      1.00       690
+
+
+(22, 16)
+0.519 (+/-0.000) for {'svm__C': 0.1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+1.000 (+/-0.000) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+1.000 (+/-0.000) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 10}
+1.000 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+0.958 (+/-0.072) for {'svm__C': 0.1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.996 (+/-0.015) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.996 (+/-0.015) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.996 (+/-0.015) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.519 (+/-0.000) for {'svm__C': 0.1, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.722 (+/-0.248) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.737 (+/-0.254) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.737 (+/-0.254) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.519 (+/-0.000) for {'svm__C': 0.1, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.519 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.519 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.519 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 100}
+0.519 (+/-0.000) for {'svm__C': 0.1, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+0.519 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.519 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+0.519 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+
+{'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+
+             precision    recall  f1-score   support
+
+         16       1.00      1.00      1.00       150
+         22       1.00      1.00      1.00       120
+
+avg / total       1.00      1.00      1.00       270
+
+
+(36, 23)
+0.567 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 0.1, 'chi2__gamma': 0.01}
+0.999 (+/-0.004) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 0.01}
+1.000 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+1.000 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 0.01}
+0.812 (+/-0.168) for {'svm__C': 0.1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+1.000 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 0.1}
+1.000 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+1.000 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 0.1}
+0.567 (+/-0.000) for {'svm__C': 0.1, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.569 (+/-0.009) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 1}
+0.596 (+/-0.079) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.596 (+/-0.079) for {'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 1}
+0.567 (+/-0.000) for {'svm__C': 0.1, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.567 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 10}
+0.567 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.567 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 10}
+0.567 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 0.1, 'chi2__gamma': 100}
+0.567 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 100}
+0.567 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+0.567 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+
+{'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+
+             precision    recall  f1-score   support
+
+         23       1.00      1.00      1.00       150
+         36       1.00      1.00      1.00       120
+
+avg / total       1.00      1.00      1.00       270
+
+
+(12, 28)
+0.795 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.01, 'svm__C': 0.1}
+0.998 (+/-0.005) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+0.999 (+/-0.005) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+0.999 (+/-0.005) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+0.961 (+/-0.053) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.1, 'svm__C': 0.1}
+0.995 (+/-0.012) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.996 (+/-0.012) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.996 (+/-0.012) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.795 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 1, 'svm__C': 0.1}
+0.795 (+/-0.000) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.795 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.795 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.795 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 10, 'svm__C': 0.1}
+0.795 (+/-0.000) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.795 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.795 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.795 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 100, 'svm__C': 0.1}
+0.795 (+/-0.000) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+0.795 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+0.795 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+
+{'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+
+             precision    recall  f1-score   support
+
+         12       1.00      1.00      1.00       690
+         28       1.00      1.00      1.00       150
+
+avg / total       1.00      1.00      1.00       840
+
+
+(17, 40)
+0.755 (+/-0.000) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.988 (+/-0.019) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.997 (+/-0.011) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+0.997 (+/-0.011) for {'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 0.01}
+0.755 (+/-0.000) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.993 (+/-0.018) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.993 (+/-0.018) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.993 (+/-0.018) for {'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 0.1}
+0.755 (+/-0.000) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.755 (+/-0.000) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.755 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.755 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 1}
+0.755 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.755 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.755 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.755 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 10}
+0.755 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.755 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.755 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+0.755 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 100, 'chi2__gamma': 100}
+
+{'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+
+             precision    recall  f1-score   support
+
+         17       1.00      1.00      1.00       360
+         40       1.00      1.00      1.00        90
+
+avg / total       1.00      1.00      1.00       450
+
+
+(0, 30)
+0.682 (+/-0.000) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.982 (+/-0.031) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 0.01}
+0.998 (+/-0.006) for {'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 0.01}
+0.998 (+/-0.006) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+0.682 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 0.1, 'chi2__gamma': 0.1}
+0.986 (+/-0.020) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.989 (+/-0.012) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.989 (+/-0.012) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.682 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 0.1, 'chi2__gamma': 1}
+0.682 (+/-0.000) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.685 (+/-0.012) for {'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 1}
+0.685 (+/-0.012) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.682 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 0.1, 'chi2__gamma': 10}
+0.682 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.682 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 10}
+0.682 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.682 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 0.1, 'chi2__gamma': 100}
+0.682 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.682 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 100}
+0.682 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+
+{'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 0.01}
+
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00        60
+         30       1.00      1.00      1.00       150
+
+avg / total       1.00      1.00      1.00       210
+
+
+(41, 11)
+0.846 (+/-0.000) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.992 (+/-0.013) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 1}
+1.000 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.01, 'svm__C': 10}
+1.000 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+0.846 (+/-0.000) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.998 (+/-0.005) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.998 (+/-0.005) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.1, 'svm__C': 10}
+0.998 (+/-0.005) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.846 (+/-0.000) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.846 (+/-0.000) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.846 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 1, 'svm__C': 10}
+0.846 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.846 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.846 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.846 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 10, 'svm__C': 10}
+0.846 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.846 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.846 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.846 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 100, 'svm__C': 10}
+0.846 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+
+{'svm__kernel': 'precomputed', 'chi2__gamma': 0.01, 'svm__C': 10}
+
+             precision    recall  f1-score   support
+
+         11       1.00      1.00      1.00       420
+         41       1.00      1.00      1.00        60
+
+avg / total       1.00      1.00      1.00       480
+
+
+(39, 21)
+0.524 (+/-0.000) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.995 (+/-0.019) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.995 (+/-0.019) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.995 (+/-0.019) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 100}
+0.710 (+/-0.120) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.992 (+/-0.017) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.992 (+/-0.017) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.992 (+/-0.017) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 100}
+0.524 (+/-0.000) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.529 (+/-0.013) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.540 (+/-0.041) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.540 (+/-0.041) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 100}
+0.524 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.524 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.524 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.524 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 100}
+0.524 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.524 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.524 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.524 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 100}
+
+{'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 1}
+
+             precision    recall  f1-score   support
+
+         21       1.00      1.00      1.00        90
+         39       1.00      1.00      1.00        90
+
+avg / total       1.00      1.00      1.00       180
+
+
+(6, 24)
+0.609 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.01, 'svm__C': 0.1}
+1.000 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 0.01}
+1.000 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.01, 'svm__C': 10}
+1.000 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+0.609 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 0.1, 'chi2__gamma': 0.1}
+0.997 (+/-0.012) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.997 (+/-0.012) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.1, 'svm__C': 10}
+0.997 (+/-0.012) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.609 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 0.1, 'chi2__gamma': 1}
+0.609 (+/-0.000) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.610 (+/-0.006) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.610 (+/-0.006) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.609 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 0.1, 'chi2__gamma': 10}
+0.609 (+/-0.000) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.609 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 10, 'svm__C': 10}
+0.609 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.609 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 0.1, 'chi2__gamma': 100}
+0.609 (+/-0.000) for {'svm__C': 1, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+0.609 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 100, 'svm__C': 10}
+0.609 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+
+{'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 0.01}
+
+             precision    recall  f1-score   support
+
+          6       1.00      1.00      1.00       150
+         24       1.00      1.00      1.00        90
+
+avg / total       1.00      1.00      1.00       240
+
+
+(20, 31)
+0.684 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.01, 'svm__C': 0.1}
+0.696 (+/-0.025) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.986 (+/-0.021) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+0.988 (+/-0.017) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.01, 'svm__C': 100}
+0.684 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.1, 'svm__C': 0.1}
+0.965 (+/-0.089) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.967 (+/-0.085) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.967 (+/-0.085) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.1, 'svm__C': 100}
+0.684 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 1, 'svm__C': 0.1}
+0.684 (+/-0.000) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.684 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.684 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 1, 'svm__C': 100}
+0.684 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 10, 'svm__C': 0.1}
+0.684 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.684 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.684 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 10, 'svm__C': 100}
+0.684 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 100, 'svm__C': 0.1}
+0.684 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.684 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+0.684 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 100, 'svm__C': 100}
+
+{'svm__kernel': 'precomputed', 'chi2__gamma': 0.01, 'svm__C': 100}
+
+             precision    recall  f1-score   support
+
+         20       1.00      1.00      1.00        90
+         31       1.00      1.00      1.00       270
+
+avg / total       1.00      1.00      1.00       360
+
+
+(3, 32)
+0.855 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.01, 'svm__C': 0.1}
+0.964 (+/-0.068) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 0.01}
+0.993 (+/-0.019) for {'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 0.01}
+0.993 (+/-0.019) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+0.855 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.1, 'svm__C': 0.1}
+0.982 (+/-0.049) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 0.1}
+0.982 (+/-0.049) for {'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 0.1}
+0.982 (+/-0.049) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.855 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 1, 'svm__C': 0.1}
+0.855 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 1}
+0.855 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 1}
+0.855 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.855 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 10, 'svm__C': 0.1}
+0.855 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 10}
+0.855 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 10}
+0.855 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.855 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 100, 'svm__C': 0.1}
+0.855 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 1, 'chi2__gamma': 100}
+0.855 (+/-0.000) for {'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 100}
+0.855 (+/-0.000) for {'svm__C': 100, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+
+{'svm__kernel': 'precomputed', 'svm__C': 10, 'chi2__gamma': 0.01}
+
+             precision    recall  f1-score   support
+
+          3       1.00      1.00      1.00       450
+         32       1.00      1.00      1.00        60
+
+avg / total       1.00      1.00      1.00       510
+
+
+(38, 2)
+0.948 (+/-0.050) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.01, 'svm__C': 0.1}
+0.995 (+/-0.015) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.993 (+/-0.025) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.994 (+/-0.023) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 100}
+0.993 (+/-0.008) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.994 (+/-0.019) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.1, 'svm__C': 1}
+0.994 (+/-0.020) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.994 (+/-0.020) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 100}
+0.521 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 1, 'svm__C': 0.1}
+0.792 (+/-0.067) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.806 (+/-0.070) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.806 (+/-0.070) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 100}
+0.521 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 10, 'svm__C': 0.1}
+0.521 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.521 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.521 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 100}
+0.521 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 100, 'svm__C': 0.1}
+0.521 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.521 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 10}
+0.521 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 100}
+
+{'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 1}
+
+             precision    recall  f1-score   support
+
+          2       1.00      1.00      1.00       750
+         38       1.00      1.00      1.00       690
+
+avg / total       1.00      1.00      1.00      1440
+
+
+(25, 42)
+0.862 (+/-0.000) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.990 (+/-0.024) for {'chi2__gamma': 0.01, 'svm__kernel': 'precomputed', 'svm__C': 1}
+1.000 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+1.000 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.01, 'svm__C': 100}
+0.862 (+/-0.000) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.997 (+/-0.008) for {'chi2__gamma': 0.1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.997 (+/-0.008) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.1}
+0.997 (+/-0.008) for {'svm__kernel': 'precomputed', 'chi2__gamma': 0.1, 'svm__C': 100}
+0.862 (+/-0.000) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.862 (+/-0.000) for {'chi2__gamma': 1, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.862 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 1}
+0.862 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 1, 'svm__C': 100}
+0.862 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.862 (+/-0.000) for {'chi2__gamma': 10, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.862 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 10}
+0.862 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 10, 'svm__C': 100}
+0.862 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 0.1}
+0.862 (+/-0.000) for {'chi2__gamma': 100, 'svm__kernel': 'precomputed', 'svm__C': 1}
+0.862 (+/-0.000) for {'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 100}
+0.862 (+/-0.000) for {'svm__kernel': 'precomputed', 'chi2__gamma': 100, 'svm__C': 100}
+
+{'svm__C': 10, 'svm__kernel': 'precomputed', 'chi2__gamma': 0.01}
+
+             precision    recall  f1-score   support
+
+         25       1.00      1.00      1.00       480
+         42       1.00      1.00      1.00        90
+
+avg / total       1.00      1.00      1.00       570
+
+

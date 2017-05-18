@@ -1,0 +1,357 @@
+(29, 13)
+0.950 (+/-0.015) for {'C': 0.01, 'kernel': 'linear'}
+0.998 (+/-0.007) for {'C': 0.1, 'kernel': 'linear'}
+0.998 (+/-0.007) for {'C': 1, 'kernel': 'linear'}
+0.998 (+/-0.007) for {'C': 10, 'kernel': 'linear'}
+0.998 (+/-0.007) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 0.1, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         13       1.00      1.00      1.00       720
+         29       1.00      1.00      1.00        90
+
+avg / total       1.00      1.00      1.00       810
+
+
+(7, 15)
+0.696 (+/-0.002) for {'C': 0.01, 'kernel': 'linear'}
+0.987 (+/-0.024) for {'C': 0.1, 'kernel': 'linear'}
+0.990 (+/-0.016) for {'C': 1, 'kernel': 'linear'}
+0.990 (+/-0.017) for {'C': 10, 'kernel': 'linear'}
+0.990 (+/-0.017) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 1, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+          7       1.00      1.00      1.00       450
+         15       1.00      1.00      1.00       210
+
+avg / total       1.00      1.00      1.00       660
+
+
+(19, 1)
+0.914 (+/-0.000) for {'C': 0.01, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 0.1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 10, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 0.1, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+          1       1.00      1.00      1.00       720
+         19       1.00      1.00      1.00        60
+
+avg / total       1.00      1.00      1.00       780
+
+
+(34, 8)
+0.770 (+/-0.000) for {'C': 0.01, 'kernel': 'linear'}
+0.993 (+/-0.012) for {'C': 0.1, 'kernel': 'linear'}
+0.993 (+/-0.011) for {'C': 1, 'kernel': 'linear'}
+0.993 (+/-0.011) for {'C': 10, 'kernel': 'linear'}
+0.993 (+/-0.011) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 0.1, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+          8       1.00      1.00      1.00       450
+         34       1.00      1.00      1.00       120
+
+avg / total       1.00      1.00      1.00       570
+
+
+(35, 27)
+0.834 (+/-0.003) for {'C': 0.01, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 0.1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 10, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 0.1, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         27       1.00      1.00      1.00        60
+         35       1.00      1.00      1.00       390
+
+avg / total       1.00      1.00      1.00       450
+
+
+(26, 9)
+1.000 (+/-0.002) for {'C': 0.01, 'kernel': 'linear'}
+1.000 (+/-0.002) for {'C': 0.1, 'kernel': 'linear'}
+1.000 (+/-0.002) for {'C': 1, 'kernel': 'linear'}
+1.000 (+/-0.002) for {'C': 10, 'kernel': 'linear'}
+1.000 (+/-0.002) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 0.01, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+          9       1.00      1.00      1.00       480
+         26       1.00      1.00      1.00       180
+
+avg / total       1.00      1.00      1.00       660
+
+
+(14, 18)
+1.000 (+/-0.000) for {'C': 0.01, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 0.1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 10, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 0.01, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         14       1.00      1.00      1.00       270
+         18       1.00      1.00      1.00       390
+
+avg / total       1.00      1.00      1.00       660
+
+
+(10, 33)
+0.965 (+/-0.041) for {'C': 0.01, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 0.1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 10, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 0.1, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         10       1.00      1.00      1.00       660
+         33       1.00      1.00      1.00       210
+
+avg / total       1.00      1.00      1.00       870
+
+
+(5, 37)
+0.899 (+/-0.000) for {'C': 0.01, 'kernel': 'linear'}
+0.997 (+/-0.009) for {'C': 0.1, 'kernel': 'linear'}
+0.998 (+/-0.006) for {'C': 1, 'kernel': 'linear'}
+0.998 (+/-0.006) for {'C': 10, 'kernel': 'linear'}
+0.998 (+/-0.006) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 1, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+          5       1.00      1.00      1.00       630
+         37       1.00      1.00      1.00        60
+
+avg / total       1.00      1.00      1.00       690
+
+
+(22, 16)
+1.000 (+/-0.000) for {'C': 0.01, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 0.1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 10, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 0.01, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         16       1.00      1.00      1.00       150
+         22       1.00      1.00      1.00       120
+
+avg / total       1.00      1.00      1.00       270
+
+
+(36, 23)
+0.999 (+/-0.004) for {'C': 0.01, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 0.1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 10, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 0.1, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         23       1.00      1.00      1.00       150
+         36       1.00      1.00      1.00       120
+
+avg / total       1.00      1.00      1.00       270
+
+
+(12, 28)
+0.998 (+/-0.006) for {'C': 0.01, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 0.1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 10, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 0.1, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         12       1.00      1.00      1.00       690
+         28       1.00      1.00      1.00       150
+
+avg / total       1.00      1.00      1.00       840
+
+
+(17, 40)
+0.846 (+/-0.100) for {'C': 0.01, 'kernel': 'linear'}
+0.999 (+/-0.003) for {'C': 0.1, 'kernel': 'linear'}
+0.999 (+/-0.003) for {'C': 1, 'kernel': 'linear'}
+0.999 (+/-0.003) for {'C': 10, 'kernel': 'linear'}
+0.999 (+/-0.003) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 1, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         17       1.00      1.00      1.00       360
+         40       1.00      1.00      1.00        90
+
+avg / total       1.00      1.00      1.00       450
+
+
+(0, 30)
+0.682 (+/-0.000) for {'C': 0.01, 'kernel': 'linear'}
+0.998 (+/-0.006) for {'C': 0.1, 'kernel': 'linear'}
+0.998 (+/-0.006) for {'C': 1, 'kernel': 'linear'}
+0.998 (+/-0.006) for {'C': 10, 'kernel': 'linear'}
+0.998 (+/-0.006) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 0.1, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00        60
+         30       1.00      1.00      1.00       150
+
+avg / total       1.00      1.00      1.00       210
+
+
+(41, 11)
+0.846 (+/-0.000) for {'C': 0.01, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 0.1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 10, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 0.1, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         11       1.00      1.00      1.00       420
+         41       1.00      1.00      1.00        60
+
+avg / total       1.00      1.00      1.00       480
+
+
+(39, 21)
+0.965 (+/-0.048) for {'C': 0.01, 'kernel': 'linear'}
+0.995 (+/-0.019) for {'C': 0.1, 'kernel': 'linear'}
+0.995 (+/-0.019) for {'C': 1, 'kernel': 'linear'}
+0.995 (+/-0.019) for {'C': 10, 'kernel': 'linear'}
+0.995 (+/-0.019) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 0.1, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         21       1.00      1.00      1.00        90
+         39       1.00      1.00      1.00        90
+
+avg / total       1.00      1.00      1.00       180
+
+
+(6, 24)
+0.930 (+/-0.140) for {'C': 0.01, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 0.1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 10, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 0.1, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+          6       1.00      1.00      1.00       150
+         24       1.00      1.00      1.00        90
+
+avg / total       1.00      1.00      1.00       240
+
+
+(20, 31)
+0.684 (+/-0.000) for {'C': 0.01, 'kernel': 'linear'}
+0.990 (+/-0.015) for {'C': 0.1, 'kernel': 'linear'}
+0.987 (+/-0.014) for {'C': 1, 'kernel': 'linear'}
+0.987 (+/-0.014) for {'C': 10, 'kernel': 'linear'}
+0.987 (+/-0.014) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 0.1, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         20       1.00      1.00      1.00        90
+         31       1.00      1.00      1.00       270
+
+avg / total       1.00      1.00      1.00       360
+
+
+(3, 32)
+0.855 (+/-0.000) for {'C': 0.01, 'kernel': 'linear'}
+0.995 (+/-0.013) for {'C': 0.1, 'kernel': 'linear'}
+0.994 (+/-0.014) for {'C': 1, 'kernel': 'linear'}
+0.994 (+/-0.014) for {'C': 10, 'kernel': 'linear'}
+0.994 (+/-0.014) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 0.1, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+          3       1.00      1.00      1.00       450
+         32       1.00      0.97      0.98        60
+
+avg / total       1.00      1.00      1.00       510
+
+
+(38, 2)
+0.991 (+/-0.028) for {'C': 0.01, 'kernel': 'linear'}
+0.992 (+/-0.027) for {'C': 0.1, 'kernel': 'linear'}
+0.992 (+/-0.027) for {'C': 1, 'kernel': 'linear'}
+0.992 (+/-0.027) for {'C': 10, 'kernel': 'linear'}
+0.992 (+/-0.027) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 0.1, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+          2       1.00      1.00      1.00       750
+         38       1.00      1.00      1.00       690
+
+avg / total       1.00      1.00      1.00      1440
+
+
+(25, 42)
+0.864 (+/-0.007) for {'C': 0.01, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 0.1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 1, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 10, 'kernel': 'linear'}
+1.000 (+/-0.000) for {'C': 100, 'kernel': 'linear'}
+
+{'C': 0.1, 'kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         25       1.00      1.00      1.00       480
+         42       1.00      0.99      0.99        90
+
+avg / total       1.00      1.00      1.00       570
+
+
