@@ -25,6 +25,10 @@ def dataset_summary(train_set_size, test_set_size):
     ))
     print('')
 
+def accuracy(value):
+    ''' Logs accuracy value '''
+    print('Total accuracy: {:.2f} %\n'.format(100 * value))
+
 def time(elapsed_seconds):
     ''' Logs operation elapsed time '''
     total_seconds = int(elapsed_seconds)

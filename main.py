@@ -10,7 +10,6 @@ import numpy as np
 from sklearn import svm
 from sklearn.metrics.pairwise import chi2_kernel
 from sklearn.metrics import classification_report
-from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 
 def load_data(feature, classes, components_cnt):
@@ -38,6 +37,8 @@ def evaluate_kernel(svc, name, data):
     log.message('Evaluating ...')
     predicted_labels = svc.predict(test_data)
     log.message(classification_report(test_labels, predicted_labels))
+    total_accuracy = np.count_nonzero(np.array(test_labels) == np.array(predicted_labels)) / len(test_labels)
+    log.accuracy(total_accuracy)
 
 def evaluate_chi2_kernel(data, gamma, C):
     train_data, train_labels, test_data, test_labels = data
@@ -53,6 +54,8 @@ def evaluate_chi2_kernel(data, gamma, C):
     test_kernel = chi2_kernel(test_data, train_data, gamma=gamma)
     predicted_labels = svc.predict(test_kernel)
     log.message(classification_report(test_labels, predicted_labels))
+    total_accuracy = np.count_nonzero(np.array(test_labels) == np.array(predicted_labels)) / len(test_labels)
+    log.accuracy(total_accuracy)
 
 # http://scikit-learn.org/stable/auto_examples/model_selection/grid_search_digits.html#sphx-glr-auto-examples-model-selection-grid-search-digits-py
 
@@ -95,32 +98,26 @@ def parameters_search(score, params, data, pair, n_jobs=8):
 
 ####################################### MAIN SCRIPT #######################################
 
-# np.random.permut
-
-CLASSES = list(range(1, 3)) # Use (0, 43) for full dataset
+CLASSES = list(range(0, 43)) # Use (0, 43) for full dataset
 COMPONENTS_CNT = 256
 FEATURE = const.HOG01
 
 if __name__ == '__main__':
 
-    # data = load_data(FEATURE, CLASSES, COMPONENTS_CNT)
+    data = load_data(FEATURE, CLASSES, COMPONENTS_CNT)
 
-    # kernels = [
-    #     (svm.SVC(kernel='linear', C=0.1), 'linear'),
-    #     (svm.SVC(kernel='poly', degree=2, C=0.1, gamma=0.1, coef0=10.0), 'poly2'),
-    #     (svm.SVC(kernel='poly', degree=3, C=0.1, gamma=0.1, coef0=0.0), 'poly3'),
-    #     (svm.SVC(kernel='rbf', C=10.0, gamma=0.1), 'rbf')
-    # ]
+    # Best parameters selected:
+    kernels = [
+        (svm.SVC(kernel='linear', C=0.1), 'linear'),
+        (svm.SVC(kernel='poly', degree=2, C=0.1, gamma=0.1, coef0=0.0), 'poly2'),
+        (svm.SVC(kernel='poly', degree=3, C=0.1, gamma=0.1, coef0=0.0), 'poly3'),
+        (svm.SVC(kernel='rbf', C=10.0, gamma=0.01), 'rbf')
+    ]
 
-    # Takes roughly 1-2 min per kernel for full dataset
-    # Best result for current parameters gives rbf - 94%, others are ~ 93%
-    # for k in kernels:
-    #     evaluate_kernel(k[0], k[1], data)
-
-    # # Takes ~35 min for full dataset (very memory expensive)
-    # # Results are on 93-94% level
-    # for gamma, C in [(0.1, 10.0)]:
-    #     evaluate_chi2_kernel(data, gamma, C)
+    for k in kernels:
+        evaluate_kernel(k[0], k[1], data)
+    gamma, C = (0.01, 100.0)
+    evaluate_chi2_kernel(data, gamma, C)
 
     kernel_params = {
         'linear': {
@@ -131,20 +128,20 @@ if __name__ == '__main__':
             'kernel': ['poly'],
             'degree': [2],
             'coef0': [0, 0.1, 1, 10],
-            'gamma': [0.1, 1, 10],
-            'C': [0.1, 1, 10]
+            'gamma': [0.001, 0.01, 0.1, 1],
+            'C': [0.1, 1, 10, 100]
         },
         'poly3': {
             'kernel': ['poly'],
             'degree': [3],
             'coef0': [0, 0.1, 1, 10],
-            'gamma': [0.1, 1, 10],
-            'C': [0.1, 1, 10]
+            'gamma': [0.001, 0.01, 0.1, 1],
+            'C': [0.1, 1, 10, 100]
         },
         'rbf': {
             'kernel': ['rbf'],
-            'gamma': [0.1, 1, 10],
-            'C': [0.1, 1, 10]
+            'gamma': [0.001, 0.01, 0.1, 1, 10],
+            'C': [0.1, 1, 10, 100, 1000]
         },
         'chi2': {
             'svm__kernel': ['precomputed'],
@@ -162,10 +159,9 @@ if __name__ == '__main__':
 
     N_JOBS = const.N_THREADS # Set to number of processor threads for the best performance
 
-    # Takes ~2 min for 2 classes
-    # parameters_search(SCORE, kernel_params['rbf'], data, N_JOBS)
+    selected_kernel = 'poly3'
+    search_procedure = chi2.parameters_search if selected_kernel == 'chi2' else parameters_search
 
-    for pair in const.PAIRS:
-        data = data = load_data(FEATURE, pair, COMPONENTS_CNT)
-        # parameters_search(SCORE, kernel_params['linear'], data, pair, N_JOBS)
-        chi2.parameters_search(SCORE, kernel_params['chi2'], data, pair, N_JOBS)
+    # for pair in const.PAIRS:
+    #     data = load_data(FEATURE, pair, COMPONENTS_CNT)
+    #     search_procedure(SCORE, kernel_params[selected_kernel], data, pair, N_JOBS)
