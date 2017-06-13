@@ -2,13 +2,19 @@
 
 from sklearn import decomposition
 from sklearn import preprocessing
+import pca
 
 def perform_pca(train_data, test_data, components_cnt):
     ''' Performs PCA transform on given training and test  data '''
-    pca = decomposition.PCA(n_components=components_cnt)
-    pca.fit(train_data)
-    train_data_trasformed = pca.transform(train_data)
-    test_data_trasformed = pca.transform(test_data)
+    # pca_trans = decomposition.PCA(n_components=components_cnt)
+    # pca_trans.fit(train_data)
+    # train_data_trasformed = pca_trans.transform(train_data)
+    # test_data_trasformed = pca_trans.transform(test_data)
+
+    mu, trmx = pca.prepare(train_data, components_cnt)
+    kernel = pca.linear_kernel
+    train_data_trasformed = pca.transform(train_data, mu, trmx, kernel)
+    test_data_trasformed = pca.transform(test_data, mu, trmx, kernel)
 
     return train_data_trasformed, test_data_trasformed
 
