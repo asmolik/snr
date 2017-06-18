@@ -1,0 +1,342 @@
+(29, 13)
+1.000 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+1.000 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.989 (+/-0.027) for {'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.989 (+/-0.027) for {'svm__C': 10, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.889 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+0.889 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+
+{'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         13       1.00      1.00      1.00       720
+         29       0.99      1.00      0.99        90
+
+avg / total       1.00      1.00      1.00       810
+
+
+(7, 15)
+0.995 (+/-0.011) for {'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.996 (+/-0.011) for {'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.986 (+/-0.037) for {'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.986 (+/-0.037) for {'svm__C': 10, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.696 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+0.696 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+
+{'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+          7       1.00      1.00      1.00       450
+         15       1.00      1.00      1.00       210
+
+avg / total       1.00      1.00      1.00       660
+
+
+(19, 1)
+1.000 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+1.000 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.997 (+/-0.013) for {'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.997 (+/-0.013) for {'svm__C': 10, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.914 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+0.914 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+
+{'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+          1       1.00      1.00      1.00       720
+         19       1.00      1.00      1.00        60
+
+avg / total       1.00      1.00      1.00       780
+
+
+(34, 8)
+0.997 (+/-0.007) for {'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.998 (+/-0.004) for {'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.996 (+/-0.010) for {'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.996 (+/-0.010) for {'svm__C': 10, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.770 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+0.770 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+
+{'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+          8       1.00      1.00      1.00       450
+         34       1.00      1.00      1.00       120
+
+avg / total       1.00      1.00      1.00       570
+
+
+(35, 27)
+1.000 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+1.000 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.998 (+/-0.006) for {'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.998 (+/-0.006) for {'svm__C': 10, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.833 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+0.833 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+
+{'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         27       1.00      1.00      1.00        60
+         35       1.00      1.00      1.00       390
+
+avg / total       1.00      1.00      1.00       450
+
+
+(26, 9)
+1.000 (+/-0.002) for {'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+1.000 (+/-0.002) for {'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.999 (+/-0.002) for {'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.999 (+/-0.002) for {'svm__C': 10, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.710 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+0.710 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+
+{'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+          9       1.00      1.00      1.00       480
+         26       1.00      1.00      1.00       180
+
+avg / total       1.00      1.00      1.00       660
+
+
+(14, 18)
+1.000 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+1.000 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.999 (+/-0.002) for {'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.999 (+/-0.002) for {'svm__C': 10, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.608 (+/-0.004) for {'svm__C': 1, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+0.609 (+/-0.008) for {'svm__C': 10, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+
+{'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         14       1.00      1.00      1.00       270
+         18       1.00      1.00      1.00       390
+
+avg / total       1.00      1.00      1.00       660
+
+
+(10, 33)
+1.000 (+/-0.001) for {'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+1.000 (+/-0.001) for {'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.997 (+/-0.008) for {'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.997 (+/-0.008) for {'svm__C': 10, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.745 (+/-0.001) for {'svm__C': 1, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+0.745 (+/-0.001) for {'svm__C': 10, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+
+{'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         10       1.00      1.00      1.00       660
+         33       1.00      1.00      1.00       210
+
+avg / total       1.00      1.00      1.00       870
+
+
+(5, 37)
+0.999 (+/-0.004) for {'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.999 (+/-0.004) for {'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.990 (+/-0.019) for {'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.990 (+/-0.019) for {'svm__C': 10, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.899 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+0.899 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+
+{'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+          5       0.99      1.00      1.00       630
+         37       1.00      0.93      0.97        60
+
+avg / total       0.99      0.99      0.99       690
+
+
+(22, 16)
+1.000 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+1.000 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.968 (+/-0.128) for {'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.968 (+/-0.128) for {'svm__C': 10, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.556 (+/-0.075) for {'svm__C': 1, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+0.559 (+/-0.073) for {'svm__C': 10, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+
+{'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         16       1.00      1.00      1.00       150
+         22       1.00      1.00      1.00       120
+
+avg / total       1.00      1.00      1.00       270
+
+
+(36, 23)
+1.000 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+1.000 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.997 (+/-0.009) for {'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.997 (+/-0.009) for {'svm__C': 10, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.567 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+0.567 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+
+{'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         23       1.00      1.00      1.00       150
+         36       1.00      1.00      1.00       120
+
+avg / total       1.00      1.00      1.00       270
+
+
+(12, 28)
+1.000 (+/-0.002) for {'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+1.000 (+/-0.002) for {'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.993 (+/-0.019) for {'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.993 (+/-0.019) for {'svm__C': 10, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.795 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+0.795 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+
+{'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         12       1.00      1.00      1.00       690
+         28       1.00      1.00      1.00       150
+
+avg / total       1.00      1.00      1.00       840
+
+
+(17, 40)
+1.000 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+1.000 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.997 (+/-0.006) for {'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.997 (+/-0.006) for {'svm__C': 10, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.755 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+0.755 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+
+{'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         17       1.00      1.00      1.00       360
+         40       1.00      1.00      1.00        90
+
+avg / total       1.00      1.00      1.00       450
+
+
+(0, 30)
+0.998 (+/-0.006) for {'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.998 (+/-0.006) for {'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.991 (+/-0.024) for {'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.991 (+/-0.024) for {'svm__C': 10, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.682 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+0.682 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+
+{'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00        60
+         30       1.00      1.00      1.00       150
+
+avg / total       1.00      1.00      1.00       210
+
+
+(41, 11)
+1.000 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+1.000 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.996 (+/-0.012) for {'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.996 (+/-0.012) for {'svm__C': 10, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.846 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+0.846 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+
+{'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         11       1.00      1.00      1.00       420
+         41       1.00      1.00      1.00        60
+
+avg / total       1.00      1.00      1.00       480
+
+
+(39, 21)
+0.997 (+/-0.013) for {'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.997 (+/-0.013) for {'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.998 (+/-0.006) for {'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.998 (+/-0.006) for {'svm__C': 10, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.524 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+0.524 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+
+{'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         21       1.00      1.00      1.00        90
+         39       1.00      1.00      1.00        90
+
+avg / total       1.00      1.00      1.00       180
+
+
+(6, 24)
+1.000 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+1.000 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+1.000 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+1.000 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.616 (+/-0.018) for {'svm__C': 1, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+0.620 (+/-0.028) for {'svm__C': 10, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+
+{'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+          6       1.00      1.00      1.00       150
+         24       1.00      1.00      1.00        90
+
+avg / total       1.00      1.00      1.00       240
+
+
+(20, 31)
+0.993 (+/-0.014) for {'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.994 (+/-0.013) for {'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.984 (+/-0.028) for {'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.984 (+/-0.028) for {'svm__C': 10, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.684 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+0.684 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+
+{'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+         20       1.00      1.00      1.00        90
+         31       1.00      1.00      1.00       270
+
+avg / total       1.00      1.00      1.00       360
+
+
+(3, 32)
+0.992 (+/-0.029) for {'svm__C': 1, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.993 (+/-0.026) for {'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+0.974 (+/-0.054) for {'svm__C': 1, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.974 (+/-0.054) for {'svm__C': 10, 'pca_rbf__gamma': 0.1, 'svm__kernel': 'linear'}
+0.855 (+/-0.000) for {'svm__C': 1, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+0.855 (+/-0.000) for {'svm__C': 10, 'pca_rbf__gamma': 1, 'svm__kernel': 'linear'}
+
+{'svm__C': 10, 'pca_rbf__gamma': 0.01, 'svm__kernel': 'linear'}
+
+             precision    recall  f1-score   support
+
+          3       1.00      1.00      1.00       450
+         32       1.00      1.00      1.00        60
+
+avg / total       1.00      1.00      1.00       510
+
+

@@ -19,12 +19,46 @@ def load_data(feature, classes, components_cnt):
 
     start = time.time()
     train_data, train_labels, test_data, test_labels = d.read_test_and_train_data(feature, classes)
+    log.time(time.time() - start)
+
+    log.dataset_summary(len(train_data), len(test_data))
+    return train_data, train_labels, test_data, test_labels
+
+def transform_data(data, components_cnt):
+    train_data, train_labels, test_data, test_labels = data
+
+    log.line()
+    start = time.time()
+    log.message('pca...')
     train_data, test_data = transform.perform_pca(train_data, test_data, components_cnt)
+    log.time(time.time() - start)
+    start = time.time()
+    log.message('normalize...')
     train_data, test_data = transform.normalize_data(train_data, test_data)
     log.time(time.time() - start)
 
     log.dataset_summary(len(train_data), len(test_data))
     return train_data, train_labels, test_data, test_labels
+
+
+def transform_data_kernel(data, components_cnt, kernel_params):
+    train_data, train_labels, test_data, test_labels = data
+
+    log.line()
+    start = time.time()
+    log.message('pca...')
+    if kernel_params[0] == 'chi2':
+        train_data, test_data = transform.normalize_data(train_data, test_data)
+    train_data, test_data = transform.perform_kernel_pca(train_data, test_data, components_cnt, kernel_params)
+    log.time(time.time() - start)
+    start = time.time()
+    log.message('normalize...')
+    train_data, test_data = transform.normalize_data(train_data, test_data)
+    log.time(time.time() - start)
+
+    log.dataset_summary(len(train_data), len(test_data))
+    return train_data, train_labels, test_data, test_labels
+
 
 def evaluate_kernel(svc, name, data):
     train_data, train_labels, test_data, test_labels = data
@@ -100,11 +134,31 @@ def parameters_search(score, params, data, pair, n_jobs=8):
 
 CLASSES = list(range(0, 43)) # Use (0, 43) for full dataset
 COMPONENTS_CNT = 256
-FEATURE = const.HOG01
+FEATURE = const.HOG02
 
 if __name__ == '__main__':
 
     data = load_data(FEATURE, CLASSES, COMPONENTS_CNT)
+
+    pca_kernel_params = {
+        'poly2': (('poly', 1, 2, 1), 0.1),
+        'poly3': (('poly', 1, 3, 1), 0.1),
+        'rbf': (('rbf', 0.01, None, None), 10),
+        'chi2': (('chi2', 0.01, None, None), 100)
+    }
+    kernel_ch = 'rbf'
+
+    params = pca_kernel_params[kernel_ch][0]
+    data = transform_data_kernel(data, COMPONENTS_CNT, params)
+
+    svc = svm.SVC(pca_kernel_params[kernel_ch][1])
+
+    evaluate_kernel(svc, 'svc', data)
+
+
+
+
+
 
     # Best parameters selected:
     kernels = [
@@ -113,6 +167,8 @@ if __name__ == '__main__':
         (svm.SVC(kernel='poly', degree=3, C=0.1, gamma=0.1, coef0=0.0), 'poly3'),
         (svm.SVC(kernel='rbf', C=10.0, gamma=0.01), 'rbf')
     ]
+
+    data = transform_data(data, COMPONENTS_CNT)
 
     for k in kernels:
         evaluate_kernel(k[0], k[1], data)

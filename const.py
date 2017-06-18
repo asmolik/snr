@@ -13,6 +13,7 @@ DATA_TRAINING_IMG_PATH = MAIN_DATA_PATH + 'GTSRB/Final_Training/Images/'
 DATA_TEST_IMG_PATH = MAIN_DATA_PATH + 'GTSRB/Final_Test/Images/'
 
 RESULTS_FILE_NAME = "results/results.txt"
+RESULTS_FILE_NAME_KERNEL_PCA = "results/kernel_pca_results.txt"
 
 TRAINING_FEATURES_PATHS = {
     HUE: MAIN_DATA_PATH + 'GTSRB/Final_Training/HueHist/',

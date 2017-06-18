@@ -1,22 +1,36 @@
 """ Data transformations """
 
+from functools import partial
 from sklearn import decomposition
 from sklearn import preprocessing
+import sklearn.metrics.pairwise as metrics
 import pca
 
 def perform_pca(train_data, test_data, components_cnt):
     ''' Performs PCA transform on given training and test  data '''
-    # pca_trans = decomposition.PCA(n_components=components_cnt)
-    # pca_trans.fit(train_data)
-    # train_data_trasformed = pca_trans.transform(train_data)
-    # test_data_trasformed = pca_trans.transform(test_data)
+    pca_trans = decomposition.PCA(n_components=components_cnt)
+    pca_trans.fit(train_data)
+    train_data_transformed = pca_trans.transform(train_data)
+    test_data_transformed = pca_trans.transform(test_data)
 
-    mu, trmx = pca.prepare(train_data, components_cnt)
-    kernel = pca.linear_kernel
-    train_data_trasformed = pca.transform(train_data, mu, trmx, kernel)
-    test_data_trasformed = pca.transform(test_data, mu, trmx, kernel)
+    return train_data_transformed, test_data_transformed
 
-    return train_data_trasformed, test_data_trasformed
+
+def perform_kernel_pca(train_data, test_data, components_cnt, kernel_params):
+    ''' Performs kernel PCA transform on given training and test  data '''
+    kernel, gamma, degree, coef0 = kernel_params
+    if kernel == 'chi2':
+        k = partial(metrics.chi2_kernel, gamma=gamma)
+        m, t = pca.prepare(train_data, components_cnt)
+        train_data_transformed = pca.transform(train_data, m, t, k)
+        test_data_transformed = pca.transform(test_data, m, t, k)
+    else:
+        pca_trans = decomposition.KernelPCA(n_components=components_cnt, kernel=kernel, gamma=gamma, degree=degree, coef0=coef0)
+        pca_trans.fit(train_data)
+        train_data_transformed = pca_trans.transform(train_data)
+        test_data_transformed = pca_trans.transform(test_data)
+
+    return train_data_transformed, test_data_transformed
 
 def normalize_data(train_data, test_data):
     ''' Scale features to [0,1] range '''

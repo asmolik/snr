@@ -17,19 +17,11 @@ def prepare(data, n_components):
     trmx = np.delete(evc, range(n_components, len(evl)), 1)
     return (mu, trmx)
 
-def linear_kernel(x1, x2):
-    y = np.dot(x1, x2)
-    return y
-
 def transform(data, mu, trmx, kernel):
     ''' Transforms data '''
     n = len(data)
     c = len(trmx[0])
 
-    data_transformed = np.zeros((n, c))
-
-    for i in range(0, n):
-        for j in range(0, c):
-            data_transformed[i, j] = kernel(data[i] - mu, trmx[:, j])
+    data_transformed = kernel(data, np.transpose(trmx))
 
     return data_transformed
